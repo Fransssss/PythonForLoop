@@ -22,7 +22,7 @@ step = int(input("input a number of how you would the number to be counted: "))
 for i in range(st,fn,step):                                # if step 2 and start at 1 and finish at 10 the ouput 1 3 5 7 9
     print(i)
 
-print("Output/display character in word/s one by one")
+print("\nOutput/display character in word/s one by one")
 word = input("\ninput word/s to be displayed one by one: ")
 for i in word:
     print(i)
